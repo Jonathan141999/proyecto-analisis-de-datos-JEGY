@@ -1,0 +1,6 @@
+
+CouchDB to Json
+curl -X GET http://admin:12345@127.0.0.1:5984/ciudades/_all_docs?include_docs=true > ciudades.json
+
+MongoDB to CouchDB
+curl -d @tena.json -H "Content-type: application/json" -X POST http://admin:12345@127.0.0.1:5984/ciudades/_bulk_docs

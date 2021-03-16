@@ -1,0 +1,65 @@
+Esmeraldas: -80.1029,0.0618,-78.4267,1.4696 realizado
+Manabí:-81.0848,-1.9515,-79.4019,0.3757  Realizado
+Los Ríos:-79.8775,-2.133,-79.0816,-0.5374 Realizado
+Guayas:-80.5634,-3.0643,-79.1019,-0.8367 realizado
+Santo Domingo: -79.6253,-0.6987,-78.7461,0.1145  realizado
+El Oro:-80.4678,-3.8901,-79.3654,-3.0471 realizado
+Santa Elena:-81.0114,-2.5076,-80.1999,-1.6687 realizado
+Carchi:-78.5494,0.3567,-77.5255,1.1979 realizado
+Imbabura:-79.2758,0.1229,-77.8104,0.8766  Realizado
+Pichincha: -79.3709,-0.7211,-77.8397,0.3273 Realizado
+Cotopaxi:-79.3393,-1.22,-78.3809,-0.3308 Realizado
+Tungurahua:-78.938,-1.5231,-78.1102,-0.9881 Realizado
+Chimborazo:-79.2545,-2.5673,-78.3585,-1.4301 realizado
+Bolivar:-79.240511,-1.618125,-78.870062,-1.401629 realizado
+Cañar:-79.5275,-2.8367,-78.5679,-2.2169 realizado
+Azuay:-79.7637,-3.6284,-78.4236,-2.5544 realizado
+
+Loja:-80.4847,-4.7489,-79.1007,-3.3296
+Sucumbios:-77.9795,-0.6558,-75.2233,0.6621
+Napo:-78.4273,-1.2487,-77.027,0.0343
+Orellana:-77.6281,-1.5642,-75.1925,-0.0378
+Pastaza: -78.18,-2.609,-75.585,-1.0038
+Morona Santiago:-78.9535,-3.5877,-76.6928,-1.4483
+Zamora Chinchipe:-79.4306,-5.0159,-78.3677,-3.3419
+Galapagos:-92.2072,-1.6122,-89.0382,1.8836
+Ecuador:-92.21,-5.02,-75.19,1.88
+
+En la noche recolectra mas datos de los presidentes.
+
+
+
+
+Username
+elastic
+Password
+OE939BltRboSvgLt2M1VdEfL
+{
+
+  "mappings": {
+
+      "properties": {
+        "doc.created_at": {
+          "type":   "date",
+          "format": "EEE MMM dd HH:mm:ss Z yyyy"
+        },
+        "doc.retweeted_status.created_at": {
+          "type":   "date",
+          "format": "EEE MMM dd HH:mm:ss Z yyyy"
+        },
+      
+        "doc.user.created_at": {
+          "type":   "date",
+          "format": "EEE MMM dd HH:mm:ss Z yyyy"
+        },
+        "doc.retweeted_status.user.created_at": {
+          "type":   "date",
+          "format": "EEE MMM dd HH:mm:ss Z yyyy"
+        },
+        "doc.coordinates.coordinates": {
+          "type": "geo_point"
+        }
+      
+    }
+  }
+}

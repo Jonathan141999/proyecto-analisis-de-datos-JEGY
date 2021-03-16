@@ -1,0 +1,57 @@
+{
+    "mappings": {
+      "test-type": {
+        "properties": {
+          "author": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "date": {
+            "type": "date",
+            "format": "EE MMM d HH:mm:ss Z yyyy||dd/MM/yyyy||dd-MM-yyyy||date_optional_time"
+          },
+          "location": {
+            "type": "geo_point"
+          },
+           "geo": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "message": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "polarity": {
+            "type": "float"
+          },
+          "sentiment": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "subjectivity": {
+            "type": "float"
+          }
+        }
+      }
+    }
+}
