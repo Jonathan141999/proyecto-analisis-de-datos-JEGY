@@ -23,13 +23,14 @@
   <br/>
   
 **Videos Juegos por países**
+
 Para el análisis de los videos juegos en los países se buscó bases de datos públicas de las siguientes fuentes que son:
 Kaggle.com
 Tableu Public Resource
 UNdata.com
 Las bases que contenían los datos que más se asemejaban a la petición del proyecto se recopilaron alrededor de 16638 datos los cuales se dividen en 3 bases. 
-Las principales datos se procesaron mediante Exel para limpiar datos innecesarios al momento que los datos fueron procesados se pudo realizar el respectivo análisis con las herramientas de Power BI y de Tableu Public. Seleccionando los elementos más idóneos para obtener información relevante.
-Para la utilización de bases relacionales se realizó la practica con MYsql DB Browser form SQlite y con la base relacional de Acces para enlazar las bases relacionales se utilizó la herramienta de Power BI que puede extraer directamente los datos de dichas bases
+Las principales datos se procesaron mediante Exel para limpiar datos innecesarios al momento que los datos fueron procesados se pudo realizar el respectivo análisis con las herramientas de <a href="https://powerbi.microsoft.com/">POWER BI</a> y de <a https://www.tableau.com/>Tableu Public</a>. Seleccionando los elementos más idóneos para obtener información relevante.
+Para la utilización de bases relacionales se realizó la practica con MYsql DB Browser form SQlite y con la base relacional de Acces para enlazar las bases relacionales se utilizó la herramienta de Power BI que puede extraer directamente los datos de dichas bases.
 
 **EVENTO O NOTICIA MUNDIAL**
 
