@@ -1,5 +1,9 @@
 # proyecto-analisis-de-datos-JEGY
-
+ 
+ENLACE AL VIDEO DEL PROCEDIMINETO REALIZADO
+<br/>
+https://www.youtube.com/watch?v=MNBEHrzU1Fo&feature=youtu.be
+<br/>
 **PULSO POLÍTICO EN 2O CIUDADES DEL ECUADOR**
 
   Se implementó la recepción de datos con respecto al tema del pulso político en ciudades de Ecuador, con respecto a la opinión de 
