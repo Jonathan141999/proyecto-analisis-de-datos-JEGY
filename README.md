@@ -19,6 +19,8 @@ Pulso Político en 20 ciudades de Ecuador
   <br/>
   Finalmente en kibana se realizaron las visualizaciones, ya que kibana tiene el benfecio de conectarse con elasticsearch, es aquí donde se realizaron visualizaciones concernientes a los datos almacenados.
   <br/>
+  <br/>
+  <br/>
 Videos Juegos por países
 <br/>
 Para el análisis de los videos juegos en los países se buscó bases de datos públicas de las siguientes fuentes que son:
