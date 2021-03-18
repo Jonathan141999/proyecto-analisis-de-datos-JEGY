@@ -20,10 +20,17 @@ Pulso Político en 20 ciudades de Ecuador
   Finalmente en kibana se realizaron las visualizaciones, ya que kibana tiene el benfecio de conectarse con elasticsearch, es aquí donde se realizaron visualizaciones concernientes a los datos almacenados.
   <br/>
 Videos Juegos por países
+<br/>
 Para el análisis de los videos juegos en los países se buscó bases de datos públicas de las siguientes fuentes que son:
 Kaggle.com
+<br/>
 Tableu Public Resource
+<br/>
 UNdata.com
+<br/>
 Las bases que contenían los datos que más se asemejaban a la petición del proyecto se recopilaron alrededor de 16638 datos los cuales se dividen en 3 bases. 
+<br/>
 Las principales datos se procesaron mediante Exel para limpiar datos innecesarios al momento que los datos fueron procesados se pudo realizar el respectivo análisis con las herramientas de Power BI y de Tableu Public. Seleccionando los elementos más idóneos para obtener información relevante.
-Para la utilización de bases relacionales se realizó la practica con MYsql DB Browser form SQlite y con la base relacional de Acces para enlazar las bases relacionales se utilizó la herramienta de Power BI que puede extraer directamente los datos de dichas bases
+<br/>
+Para la utilización de bases relacionales se realizó la practica con MYsql DB Browser form SQlite y con la base relacional de Acces para enlazar las bases relacionales se utilizó la herramienta de <br/>
+Power BI que puede extraer directamente los datos de dichas bases.
